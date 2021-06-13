@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-erd-generator",
+  "name": "koa-mongoose-erd-generator",
   "version": "0.0.5",
   "description": "",
   "main": "index.js",
@@ -10,10 +10,9 @@
   },
   "devDependencies": {},
   "bin": {
-    "mongoose-erd-generator": "./bin/index.js"
+    "koa-mongoose-erd-generator": "./bin/index.js"
   },
   "scripts": {
-    "mongoose-erd-generator": "node ./bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
