@@ -29,7 +29,7 @@ generateSvg = async (modelDirectory, backgroundColor, nameColor) => {
   return svg;
 };
 
-module.exports.dbSchema = (servePath, schemaSettings, templatePath) => {
+module.exports = (servePath, schemaSettings, templatePath) => {
   const templateHTML = fs.readFileSync(templatePath, 'utf8');
   var html = undefined;
   var svg = undefined;
